@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # local apps
+    'students',
     'articles',
 
     # third party apps

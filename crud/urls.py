@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     # articles/ 경로로 들어올 시 articles 앱의 urls.py 로 이동시킨다.
+    path('students/', include('students.urls')),
     path('articles/', include('articles.urls')),    
     path('admin/', admin.site.urls),
 ]

@@ -232,3 +232,24 @@ article 인스턴스 호출 후 값 변경하여 `.save()`
 'new content'
 ```
 
+### shell_plus
+
+```bash
+$ pip install django-extensions
+```
+
+```python
+# settings.py
+
+INSTALLED_APPS = [
+    ...
+    # third party apps
+    'django_extensions',
+    ...
+]
+```
+
+```bash
+$ python manage.py shell_plus
+```
+
